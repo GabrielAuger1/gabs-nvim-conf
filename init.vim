@@ -1,4 +1,5 @@
 call plug#begin()
+Plug 'tpope/vim-fugitive'
 Plug 'yggdroot/indentline'
 Plug 'tpope/vim-surround'
 Plug 'easymotion/vim-easymotion'
