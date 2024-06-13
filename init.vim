@@ -29,6 +29,8 @@ let g:NERDTreeDirArrowExpandable = '▸'
 let g:NERDTreeDirArrowCollapsible = '▾'
 let g:indentLine_setColors = 0
 
+"git test"
+
 nnoremap ; :
 set number
 colorscheme lucid
