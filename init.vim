@@ -1,4 +1,5 @@
 call plug#begin()
+Plug 'airblade/vim-gitgutter'
 Plug 'tpope/vim-fugitive'
 Plug 'yggdroot/indentline'
 Plug 'tpope/vim-surround'
