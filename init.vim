@@ -66,5 +66,15 @@ let g:indentLine_setColors = 0
 "command key remap for canadian multilingual keyboard
 nnoremap ; :
 set number
-colorscheme lucid
-autocmd VimEnter AirlineTheme base16
+
+
+"if it is nvim-qt
+
+if has("gui_running")
+    set guifont=MesloLGS\ NF:h12
+    colorscheme lucid
+    autocmd VimEnter AirlineTheme base16
+else
+    colorscheme default
+endif
+
